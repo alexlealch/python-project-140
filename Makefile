@@ -1,3 +1,5 @@
+.PHONY: install build package-install brain-games lint clean
+
 install:
 	uv sync
 
