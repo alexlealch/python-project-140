@@ -3,11 +3,6 @@ import operator
 
 
 def run_game():
-    print("Welcome to the Brain Games!")
-    print("May I have your name?")
-    name = input()
-    print(f"Hello, {name}!")
-
     print("What is the result of the expression?")
 
     rounds_count = 0

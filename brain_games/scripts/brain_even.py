@@ -2,11 +2,6 @@ import random
 
 
 def run_game():
-    print("Welcome to the Brain Games!")
-    print("May I have your name?")
-    name = input()
-    print(f"Hello, {name}!")
-
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     rounds_count = 0
