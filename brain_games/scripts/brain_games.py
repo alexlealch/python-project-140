@@ -1,6 +1,6 @@
 from brain_games.cli import welcome_user
-from brain_games.scripts.brain_even import is_even_or_odd
-from brain_games.scripts.brain_calc import brain_calc
+from brain_games.scripts.brain_even import run_game as brain_even
+from brain_games.scripts.brain_calc import run_game as brain_calc
 
 
 def main():
@@ -11,7 +11,7 @@ def main():
     print("2. Calculator")
     choice = input("Your choice: ")
     if choice == "1":
-        is_even_or_odd()
+        brain_even()
     elif choice == "2":
         brain_calc()
     else:
