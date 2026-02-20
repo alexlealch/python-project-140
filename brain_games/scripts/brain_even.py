@@ -19,10 +19,10 @@ def run_game():
             print(
                 f"'{answer}' is wrong answer ;(. Correct answer was '{expected_answer}'."
             )
-            print(f"Let's try again, {name}!")
+            print("Let's try again!")
             return
 
-    print(f"Congratulations, {name}!")
+    print("Congratulations!")
 
 
 def main():
