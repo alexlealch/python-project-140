@@ -3,7 +3,7 @@ name = "hexlet-code"
 version = "0.1.0"
 description = "A collection of five interactive CLI (Command Line Interface) brain games. Test your math skills with parity checks, calculators, progressions, GCD, and prime number challenges!"
 authors = [
-    { name = "Alex Leal", email = "[alexlealch@gmail.com]" },
+    { name = "Alexander Leal", email = "alexlealch@gmail.com" }
 ]
 readme = "README.md"
 requires-python = ">=3.12"
