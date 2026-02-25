@@ -13,7 +13,7 @@ def run_game():
     while rounds_count < 3:
         number1 = random.randint(1, 100)
         number2 = random.randint(1, 100)
-        print(f"Question: {number1} and {number2}")
+        print(f"Question: {number1} {number2}")
 
         answer = input("Your answer: ")
         expected_answer = math.gcd(number1, number2)
