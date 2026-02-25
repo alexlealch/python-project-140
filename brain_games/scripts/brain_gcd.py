@@ -22,9 +22,9 @@ def run_game():
             print("Correct!")
             rounds_count += 1
         else:
-            print(
-                f"'{answer}' is wrong answer ;(. Correct answer was '{expected_answer}'."
-            )
+            message = f"'{answer}' is wrong answer ;(. "
+            message += f"Correct answer was '{expected_answer}'."
+            print(message)
             print(f"Let's try again, {name}!")
             return
 
