@@ -7,7 +7,6 @@ from brain_games.scripts.brain_prime import run_game as brain_prime
 
 
 def main():
-    print("Welcome to the Brain Games!")
     welcome_user()
     print("Which game would you like to play?")
     print("1. Even or Odd")
