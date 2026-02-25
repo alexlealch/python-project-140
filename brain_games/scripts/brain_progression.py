@@ -28,10 +28,10 @@ def run_game():
             rounds_count += 1
         else:
             print(f"Wrong answer ;(. Correct answer was '{hidden_number}'.")
-            break
+            print(f"Let's try again, {name}!")
+            return
 
-    if rounds_count == 3:
-        print(f"Congratulations, {name}!")
+    print(f"Congratulations, {name}!")
 
 
 def main():

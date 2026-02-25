@@ -32,7 +32,7 @@ def run_game():
             print(
                 f"'{answer}' is wrong answer ;(. Correct answer was '{expected_answer}'."
             )
-            print("Let's try again!")
+            print(f"Let's try again, {name}!")
             return
 
     print(f"Congratulations, {name}!")
