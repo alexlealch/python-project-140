@@ -6,7 +6,7 @@ from brain_games.cli import welcome_user
 
 def run_game():
     name = welcome_user()
-    print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     rounds_count = 0
 
     while rounds_count < 3:
