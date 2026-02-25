@@ -1,7 +1,10 @@
 import random
 
+from brain_games.cli import welcome_user
+
 
 def run_game():
+    name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     rounds_count = 0
@@ -22,7 +25,7 @@ def run_game():
             print("Let's try again!")
             return
 
-    print("Congratulations!")
+    print(f"Congratulations, {name}!")
 
 
 def main():

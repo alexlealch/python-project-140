@@ -1,7 +1,10 @@
 import random
 
+from brain_games.cli import welcome_user
+
 
 def run_game():
+    name = welcome_user()
     print("What number is missing in the progression?")
 
     rounds_count = 0
@@ -28,7 +31,7 @@ def run_game():
             break
 
     if rounds_count == 3:
-        print("Congratulations!")
+        print(f"Congratulations, {name}!")
 
 
 def main():

@@ -1,8 +1,11 @@
-import random
 import operator
+import random
+
+from brain_games.cli import welcome_user
 
 
 def run_game():
+    name = welcome_user()
     print("What is the result of the expression?")
 
     rounds_count = 0
@@ -32,7 +35,7 @@ def run_game():
             print("Let's try again!")
             return
 
-    print("Congratulations!")
+    print(f"Congratulations, {name}!")
 
 
 def main():

@@ -1,8 +1,11 @@
-import random
 import math
+import random
+
+from brain_games.cli import welcome_user
 
 
 def run_game():
+    name = welcome_user()
     print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
     rounds_count = 0
 
@@ -31,7 +34,7 @@ def run_game():
             print("Let's try again!")
             return
 
-    print("Congratulations!")
+    print(f"Congratulations, {name}!")
 
 
 def main():
