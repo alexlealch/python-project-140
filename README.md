@@ -33,12 +33,12 @@ Once installed, you can launch any game directly from your terminal:
 
 ## Demos
 
-C:\Users\georl\Documents\Códica\juegos_mentales\python-project-140\demo.cast
+https://asciinema.org/a/2nTOyXksEKXppa9P
 
-C:\Users\georl\Documents\Códica\juegos_mentales\python-project-140\demo2.cast
+https://asciinema.org/a/8WixHi3wgPi4yqL4
 
-C:\Users\georl\Documents\Códica\juegos_mentales\python-project-140\demo3.cast
+https://asciinema.org/a/b7VZ3A8rHORy4nV1
 
-C:\Users\georl\Documents\Códica\juegos_mentales\python-project-140\demo4.cast
+https://asciinema.org/a/9RGYZOPyyjGvVLmw
 
-C:\Users\georl\Documents\Códica\juegos_mentales\python-project-140\demo5.cast
+https://asciinema.org/a/uQ0T9Dg8id79pw0T
